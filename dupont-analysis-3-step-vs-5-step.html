@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DuPont Analysis Explained: 3-Step vs 5-Step ROE (Worked Example) | Prisvek</title>
+<meta name="description" content="DuPont analysis explained with a worked example: 3-step and 5-step ROE formulas, how to read each factor, and how to tell if higher ROE came from leverage rather than profitability.">
+<meta name="author" content="Ahmed Abdeldayem">
+<meta property="og:title" content="DuPont Analysis: 3-Step vs 5-Step ROE, with a Worked Example">
+<meta property="og:type" content="article">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"DuPont Analysis Explained: 3-Step vs 5-Step ROE","author":{"@type":"Person","name":"Ahmed Abdeldayem"},"publisher":{"@type":"Organization","name":"Prisvek"},"datePublished":"2026-11-10"}</script>
+</head>
+<body>
+<header><div class="wrap"><a href="index.html">Prisvek</a><nav><a href="index.html#guides">Guides</a><a href="https://prisvek.gumroad.com/l/prisvek">Excel toolkit</a></nav></div></header>
+<main class="wrap">
+<p class="meta">By Ahmed Abdeldayem · Updated 10 November 2026</p>
+<h1>DuPont Analysis Explained: 3-Step vs 5-Step ROE, with a Worked Example</h1>
+<p class="lede">ROE went up. Is that good news? DuPont analysis answers the question by splitting return on equity into the pieces that drive it. You can then see whether the company became more profitable, used its assets better, or simply borrowed more.</p>
+
+<h2>The 3-step DuPont formula</h2>
+<p><span class="f">ROE = Net margin × Asset turnover × Equity multiplier</span></p>
+<div class="table-wrap"><table>
+<tr><th>Factor</th><th>Formula</th><th>Question it answers</th></tr>
+<tr><td>Net margin</td><td><span class="f">Net income ÷ Revenue</span></td><td>How much profit from each unit of sales?</td></tr>
+<tr><td>Asset turnover</td><td><span class="f">Revenue ÷ Average total assets</span></td><td>How hard do the assets work?</td></tr>
+<tr><td>Equity multiplier</td><td><span class="f">Average total assets ÷ Average equity</span></td><td>How much of the asset base is funded by debt?</td></tr>
+</table></div>
+<p>Multiply the three and revenue and assets cancel out, leaving net income ÷ average equity, which is ROE.</p>
+
+<h2>Worked example: ROE up from 16% to 20%</h2>
+<div class="table-wrap"><table>
+<tr><th></th><th>Year 1</th><th>Year 2</th></tr>
+<tr><td>Revenue</td><td>100.0</td><td>105.0</td></tr>
+<tr><td>Net income</td><td>8.0</td><td>8.4</td></tr>
+<tr><td>Average total assets</td><td>80.0</td><td>84.0</td></tr>
+<tr><td>Average equity</td><td>50.0</td><td>42.0</td></tr>
+<tr><td><b>Net margin</b></td><td>8.0%</td><td>8.0%</td></tr>
+<tr><td><b>Asset turnover</b></td><td>1.25×</td><td>1.25×</td></tr>
+<tr><td><b>Equity multiplier</b></td><td>1.60×</td><td>2.00×</td></tr>
+<tr><td><b>ROE</b></td><td>16.0%</td><td>20.0%</td></tr>
+</table></div>
+<p>Margin and turnover did not move. The whole rise in ROE came from the equity multiplier going from 1.6× to 2.0×. Equity fell while assets grew, so the extra assets were funded by debt.</p>
+<div class="flag"><b>Reading:</b> ROE rose because of leverage, not because the business improved. For a lender this is a warning sign, not good news.</div>
+
+<h2>The 5-step DuPont formula</h2>
+<p>The 5-step version breaks net margin into three parts, which separates operating performance from financing and tax effects:</p>
+<p><span class="f">ROE = Tax burden × Interest burden × EBIT margin × Asset turnover × Equity multiplier</span></p>
+<div class="table-wrap"><table>
+<tr><th>Factor</th><th>Formula</th><th>Meaning</th></tr>
+<tr><td>Tax burden</td><td><span class="f">Net income ÷ Pre-tax income</span></td><td>Share of pre-tax profit kept after tax.</td></tr>
+<tr><td>Interest burden</td><td><span class="f">Pre-tax income ÷ EBIT</span></td><td>Share of operating profit left after interest. Lower means heavier interest.</td></tr>
+<tr><td>EBIT margin</td><td><span class="f">EBIT ÷ Revenue</span></td><td>Operating profitability.</td></tr>
+</table></div>
+<h3>Year 1 in 5 steps</h3>
+<p>EBIT 13.0; interest 2.0; pre-tax income 11.0; tax 3.0; net income 8.0.</p>
+<ul>
+<li>Tax burden = 8.0 ÷ 11.0 = 0.727</li>
+<li>Interest burden = 11.0 ÷ 13.0 = 0.846</li>
+<li>EBIT margin = 13.0 ÷ 100.0 = 13.0%</li>
+<li>Asset turnover = 1.25×; equity multiplier = 1.60×</li>
+<li>ROE = 0.727 × 0.846 × 0.130 × 1.25 × 1.60 = <b>16.0%</b>, the same as the 3-step result</li>
+</ul>
+<div class="tip"><b>Always reconcile.</b> The product of the factors must equal ROE calculated directly. If it doesn't, the inputs are inconsistent: for example, averages were mixed with closing balances, or net income doesn't match the statements. Fix the data before you interpret anything.</div>
+
+<h2>How to read DuPont in practice</h2>
+<ul>
+<li><b>Margin up:</b> better pricing or cost control. Check whether it is sustainable.</li>
+<li><b>Turnover up:</b> more sales from the same assets. Check for asset write-downs, which also raise turnover.</li>
+<li><b>Equity multiplier up:</b> more leverage. Check interest coverage and net debt / EBITDA.</li>
+<li><b>Interest burden down:</b> interest is eating a bigger share of operating profit.</li>
+<li><b>Negative equity:</b> ROE and the equity multiplier stop being meaningful. Report them as not meaningful rather than as a number.</li>
+</ul>
+
+<div class="cta">
+<b>See DuPont applied to a full 5-year analysis (free)</b><br>
+A 17-page sample report covering a fictional company: dashboard, about 30 ratios, 3-step and 5-step DuPont reconciled to ROE, credit review and 18 data checks.<br>
+<a class="btn" href="https://prisvek.gumroad.com/l/sample-report">Download the free sample report</a>
+</div>
+<div class="cta">
+<b>Run it on your own numbers in Excel</b><br>
+Prisvek calculates both DuPont versions, reconciles each to ROE, and withholds results that rest on inconsistent inputs. It is a plain .xlsx with no macros.<br>
+<a class="btn red" href="https://prisvek.gumroad.com/l/prisvek">See the Excel toolkit</a>
+</div>
+<p>Related: <a href="financial-ratios-cheat-sheet.html">Financial ratios cheat sheet</a> · <a href="balance-sheet-red-flags.html">7 balance sheet red flags</a></p>
+<p class="meta">Illustrative figures. For education only, not investment or credit advice.</p>
+</main>
+<footer><div class="wrap">© 2026 Prisvek · Ahmed Abdeldayem · <a href="index.html">More guides</a></div></footer>
+</body>
+</html>
